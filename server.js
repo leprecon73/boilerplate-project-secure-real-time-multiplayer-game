@@ -9,8 +9,6 @@ const helmet = require('helmet');
 const fccTestingRoutes = require('./routes/fcctesting.js');
 const runner = require('./test-runner.js');
 
-con
-
 const app = express();
 
 app.use('/public', express.static(process.cwd() + '/public'));
